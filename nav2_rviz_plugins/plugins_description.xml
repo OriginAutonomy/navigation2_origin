@@ -6,6 +6,12 @@
     <description>A tool used to specify the navigation goal pose.</description>
   </class>
 
+  <class name="nav2_rviz_plugins/ComputePathTool"
+         type="nav2_rviz_plugins::ComputePathTool"
+         base_class_type="rviz_common::Tool">
+    <description>A tool that calls the planner_server's compute_path_to_pose action with the clicked pose.</description>
+  </class>
+
   <class name="nav2_rviz_plugins/Navigation 2"
          type="nav2_rviz_plugins::Nav2Panel"
          base_class_type="rviz_common::Panel">
